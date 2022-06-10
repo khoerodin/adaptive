@@ -2,13 +2,15 @@
   "name": "app",
   "private": "true",
   "dependencies": {
-    "@hotwired/stimulus": "^3.0.1",
     "@hotwired/turbo-rails": "^7.1.3",
     "@popperjs/core": "^2.11.5",
     "bootstrap": "^5.1.3",
     "bootstrap-icons": "^1.8.3",
     "esbuild": "^0.14.43",
-    "sass": "^1.52.3"
+    "mrujs": "^0.10.1",
+    "sass": "^1.52.3",
+    "stimulus": "^3.0.1",
+    "stimulus_reflex": "3.5.0-pre8"
   },
   "scripts": {
     "build": "node esbuild.config.js",
